@@ -11,4 +11,4 @@ var End = require('./../lib/end'),
 
 server.listen(8080);
 var sio = End.init(end_config, server);
-sio.set('log level', 1);
+//sio.set('log level', 1);

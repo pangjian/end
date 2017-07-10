@@ -6,9 +6,9 @@
  */
 exports.end_config = {
     mongo_config: {
-        mongoURI: 'mongodb://localhost:27017/nodend',
+        mongoURI: 'mongodb://192.168.99.100:32769/nodend',
         options: {
-            auto_reconnect: true
+            autoReconnect: true
         }
     },
     sio_config: {

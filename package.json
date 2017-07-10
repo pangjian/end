@@ -1,10 +1,5 @@
 {
-  "author": "demohi <mengdesen09@qq.com> (https://github.com/demohi)",
-  "homepage": "https://github.com/demohi/end",
-  "bugs": {
-    "url": "https://github.com/demohi/end/issues",
-    "email": "mengdesen09@qq.com"
-  },
+  "author": "pangjian <pangjian1010@gmail.com>",
   "name": "end",
   "version": "0.2.2",
   "main": "end.js",
@@ -15,16 +10,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/demohi/end.git"
-  },
   "dependencies": {
-      "emailjs":"*",
-      "mongodb":"*",
-      "socket.io":"*",
-      "moment":"*",
-      "crypto":"*"
+    "crypto": "0.0.3",
+    "emailjs": "^1.0.10",
+    "moment": "^2.18.1",
+    "mongodb": "^2.2.30",
+    "socket.io": "^2.0.3"
   },
   "keywords": [
     "baas",
@@ -35,5 +26,8 @@
     "meteor",
     "firebase"
   ],
-  "license": "The MIT License"
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.15.3"
+  }
 }
